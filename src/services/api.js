@@ -6,7 +6,6 @@ const api = axios.create({
     'Content-Type': 'application/json',
     Accept: 'application/json',
   },
-  withCredentials: true,
 })
 
 // Attach Bearer token from localStorage if available
